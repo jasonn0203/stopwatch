@@ -107,7 +107,7 @@ body {
     background-color: #26B480;
 
 }
-
+    
 
 /* RESPONSIVE */
 
@@ -115,12 +115,23 @@ body {
     Default 16px = 1em */
 
 /* Mobile responsive */
+
 @media (max-width: 46.1875em) {
     /* 46.1875em = 739px */
     .container{
         width: 90%;
     }
+    .timer-name{
+        font-size: 33px;
+        top: -21px;
+    }
+    .timer-name:hover{
+        transform: translateY(-15px)
+    }
 
+    .timer-display{
+        width: 100%;
+    }
 }
 
 /* Tablet responsive */
